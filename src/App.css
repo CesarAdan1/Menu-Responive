@@ -1,0 +1,41 @@
+.titulo{
+  display: block;
+}
+
+.nav__menu{
+  display: none;
+  
+}
+
+.nav__menu ul{
+  display: none;
+  list-style: none;
+  display: flex;
+}
+
+.nav__menu ul li{
+  margin: 0 50px;
+}
+
+.nav__mobil{
+  display: none;
+}
+
+.nav__mobil__visible{
+  display: block;
+}
+
+@media only screen and (min-width: 720px) {
+  .nav__menu{
+    display: block;
+  }
+  .nav__menu ul{
+    list-style: none;
+    display: flex;
+  }
+  .titulo{
+    display: none;
+  }
+
+  
+}
